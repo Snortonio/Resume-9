@@ -80,10 +80,10 @@ h4{
     border-radius: 25px;
     padding: 1rem;
 }
-.col-md-2{
+.col-xl-2{
     background-color:rgba(169, 169, 169, 0.203);
 }
-.col-md-10{
+.col-xl-10{
     padding: 1rem;
 }
 #box1{
@@ -95,7 +95,7 @@ h4{
 #box3{
     background-color:rgba(137, 43, 226, 0.577);
 }
-.col-md-4{
+.col-xl-4{
     padding: 2rem;
 }
 
@@ -115,6 +115,10 @@ h4{
   } 
 @media (max-width: 720px){
     body{font-size: 100%;}
-    h2, h4 {font-size: 100%;
+    h2 {font-size: 150%;}
+    h4 {font-size: 100%;
     padding: 1rem;}
+}
+@media (max-width:1500px){
+    h2{font-size: 150%;}
 }
