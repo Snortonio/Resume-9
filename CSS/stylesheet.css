@@ -1,4 +1,4 @@
-
+/*CSS code for resume project in web design*/
 body {
   font-family: sans-serif;
   font-size:110%;
@@ -9,7 +9,7 @@ body {
 header {
   text-align: center;
   color: white;
-  background-image: url(../Images/Night\ Lights.jpg);
+  background-image: url(../Images/Night-Lights.jpg);
   background-size: cover;
   padding: 5rem;
   height: 600px;
@@ -112,13 +112,15 @@ h4{
     animation-name: animatedicons;
     animation-duration: 4s;
     animation-iteration-count: infinite;    
-  } 
+  }
+  /*code for mobile devices smaller than 720px*/ 
 @media (max-width: 720px){
     body{font-size: 100%;}
     h2 {font-size: 150%;}
     h4 {font-size: 100%;
     padding: 1rem;}
 }
+/* Large devices (laptops/desktops, 1500px and below) */
 @media (max-width:1500px){
     h2{font-size: 150%;}
 }
